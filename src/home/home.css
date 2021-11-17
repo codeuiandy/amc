@@ -1,0 +1,233 @@
+.home-hero {
+  width: 100%;
+  /* background-image: url(../assets/images/hero.jpg); */
+  background-image: linear-gradient(to bottom, #95806796, #9580679d),
+    url(../assets/images/hero.jpg);
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.heroTextHome {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100% - 20px);
+}
+.heroTextHome h1 {
+  color: white;
+  font-size: 3.7rem;
+  font-weight: 800;
+  line-height: 3.5rem;
+  margin: 1.25 rem 0 0;
+  text-shadow: 3px 3px 16px rgba(0, 0, 0, 0.473);
+  transition: color 0.1s linear;
+  text-align: center;
+}
+
+.heroTextHome h2 {
+  font-weight: 400;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  text-shadow: 3px 3px 16px rgba(0, 0, 0, 0.473);
+  padding-bottom: 50 px;
+  transition: color 0.1s linear;
+  color: white;
+  margin-top: 25px;
+  text-align: center;
+}
+.heroTextHome button {
+  background: #dfbb3ae3;
+  border-radius: 8px;
+  padding: 15px 40px 15px 40px;
+  border: none;
+  color: white;
+  text-shadow: 3px 3px 16px rgba(0, 0, 0, 0.473);
+  margin-top: 25px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.plans {
+  height: 420px;
+  background-color: black;
+  display: flex;
+  border-bottom: 2px solid #dfbb3ae3;
+  /* padding-bottom: 80px; */
+}
+
+.planCrad {
+  flex: 1;
+  border-top: 3px solid #dfbb3ae3;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  background-color: black;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+/* .planCrad:nth-of-type(1) {
+  padding-left: 0;
+}
+
+.planCrad:nth-of-type(1) {
+  padding-right: 0;
+} */
+
+.planCrad:nth-of-type(2) {
+  flex: 1;
+  border-top: 3px solid #dfbb3ae3;
+  transform: translateY(-15px);
+  position: relative;
+  background-color: black;
+  padding-top: 59px;
+}
+
+.planCrad:hover {
+  border-top: 3px solid rgb(187, 183, 175);
+  /* border: 1px solid #dfbb3a83; */
+  border-bottom: none;
+  /* transform: translateY(-8px); */
+}
+
+.planCrad:nth-of-type(2):hover {
+  transform: translateY(-10);
+}
+
+.planName h2 {
+  font-size: 30px;
+}
+.planName p {
+  margin-bottom: 20px;
+  line-height: 1.4;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.planFee p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #dfbb3a;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.pickplanbtn button {
+  background: transparent;
+  border-radius: 8px;
+  padding: 15px 40px 15px 40px;
+  border: none;
+  color: white;
+  text-shadow: 3px 3px 16px rgba(0, 0, 0, 0.473);
+  margin-top: 25px;
+  cursor: pointer;
+  font-size: 13px;
+  border: 1px solid #dfbb3ae3;
+  color: #dfbb3ae3;
+}
+
+.ourFeatures {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  grid-template-areas:
+    "col1 col2"
+    "col4 col3"
+    "col5 col6";
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  padding-top: 70px;
+}
+
+.col1 {
+  grid-area: col1;
+  width: 100%;
+  height: 350px;
+  color: white;
+}
+
+.col2 {
+  grid-area: col2;
+  width: 100%;
+  height: 350px;
+}
+
+.col3 {
+  grid-area: col3;
+  width: 100%;
+  height: 350px;
+  color: white;
+}
+
+.col4 {
+  grid-area: col4;
+  width: 100%;
+  height: 350px;
+}
+
+.col5 {
+  grid-area: col5;
+  width: 100%;
+  height: 350px;
+  color: white;
+}
+
+.col6 {
+  grid-area: col6;
+  width: 100%;
+  height: 350px;
+}
+
+.col1WithImg img {
+  width: 90%;
+}
+
+.col1WithText {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.col1WithText h2 {
+  font-size: 32px;
+}
+
+.col1WithText p {
+  font-size: 19px;
+  margin-top: 15px;
+}
+
+.ds4-accord-wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.accordWrap {
+  background-color: black;
+  padding-top: 60px;
+  border-top: 2px solid #dfbb3aa6;
+  margin-top: 60px;
+}
+
+.faqHeader {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 905px) {
+  .ds4-accord-wrap {
+    width: 100%;
+  }
+}

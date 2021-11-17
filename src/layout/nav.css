@@ -1,0 +1,41 @@
+.navbar-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 0 0px;
+}
+
+.logoWrap {
+  width: 100px;
+}
+
+.logoWrap img {
+  width: 100%;
+}
+
+.authBtns {
+  display: flex;
+}
+
+.authBtns button {
+  padding: 15px 30px 15px 30px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 18px;
+  cursor: pointer;
+}
+
+.authBtns button:nth-of-type(2) {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  margin-right: 0;
+}
+.footerWrap {
+  padding: 50px;
+}
+
+.footerWrap p {
+  color: white;
+  text-align: center;
+}
