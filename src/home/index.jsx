@@ -29,8 +29,8 @@ export default function Index() {
   };
   return (
     <>
+      <Navbar />
       <div className="appPadding home-hero">
-        <Navbar />
         <div className="heroTextHome">
           <Slide bottom>
             <h1>Endless entertainment</h1>
